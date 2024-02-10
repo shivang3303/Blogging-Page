@@ -1,0 +1,27 @@
+.contact-content{
+    height: 100vh;
+    margin-top: 32px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+}
+.contact-content::after{
+    content: "";
+    background-image: url(../project/img3.jpg);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+    z-index: -1;
+}
+.form-box input, textarea{
+    width: 52vw;
+    padding: 0px 6px;
+    margin: 7px 0px;
+    font-size: 18px;
+    font-family: var(--font1);
+    border: 2px solid var(--main-bg-color);
+    border-radius: 5px;
+}
